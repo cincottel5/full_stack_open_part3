@@ -1,0 +1,27 @@
+@url = http://localhost:3001/api/persons
+
+GET {{url}}
+
+###
+GET {{url}}/5
+
+###
+GET {{url}}/2
+
+###
+DELETE {{url}}/2
+
+###
+POST {{url}}
+Content-Type: application/json
+
+{
+  "name": "Andrea Pirlo",
+  "number": "33-323423-234234"
+}
+
+### 
+POST {{url}}
+Content-Type: application/json
+
+
