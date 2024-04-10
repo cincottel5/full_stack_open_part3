@@ -1,4 +1,5 @@
 @url = http://localhost:3001/api/persons
+#@url = "https://ycm-fullstack-part3-backend.fly.dev/api/persons"
 
 GET {{url}}
 
